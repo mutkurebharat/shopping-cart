@@ -17,7 +17,7 @@ const App = () => {
     });
 
     if (isAlreadyAdded !== -1) {
-      toast("ALready Added In a Cart", {
+      toast("BHIKARCHOT, FUKAT ME NAHI MILEGA", {
         type: "error",
       });
       return;
