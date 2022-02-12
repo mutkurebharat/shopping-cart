@@ -17,7 +17,7 @@ const App = () => {
     });
 
     if (isAlreadyAdded !== -1) {
-      toast("BHIKARCHOT, FUKAT ME NAHI MILEGA", {
+      toast("Already, Added In a Cart", {
         type: "error",
       });
       return;
@@ -29,7 +29,7 @@ const App = () => {
   const buyNow = () => {
     setCartItem([]);
 
-    toast("BHAG BHOSIDKE", {
+    toast("BHIKARCHOT, FUKAT ME NAHI MILEGA", {
       type: "success",
     });
   };
