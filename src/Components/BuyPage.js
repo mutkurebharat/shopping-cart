@@ -31,7 +31,8 @@ const BuyPage = ({ addInCart }) => {
   // };
 
   const fetchPhotos = async () => {
-    const { data } = await Axios.get(localurl);
+    // const { data } = await Axios.get(localurl);
+    const { data } = await Axios.get("./PEXELS.json");
     const { photos } = data;
 
     const allProduct = photos.map((photo) => ({
